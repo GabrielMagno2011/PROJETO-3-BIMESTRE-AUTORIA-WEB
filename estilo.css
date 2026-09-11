@@ -3,16 +3,24 @@ body {
 }
 
 .capitulo {
-    border: 1px solid #5c5c5c;
-    /* ajustar pra ficar só ao redor do div */
+    border-bottom: 1px solid #5c5c5c;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
     color: white;
 }
 
 img.capitulo {
     width: 32px;
     height: 32px;
+    border-bottom: none;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: yellow;
 }
