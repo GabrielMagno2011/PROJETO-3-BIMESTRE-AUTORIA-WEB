@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: space-between;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 
 img.capitulo {
@@ -21,6 +21,8 @@ img.capitulo {
 a {
     color: white;
     text-decoration: none;
+    flex:1;
+    text-align: center;
 }
 
 a:visited {
