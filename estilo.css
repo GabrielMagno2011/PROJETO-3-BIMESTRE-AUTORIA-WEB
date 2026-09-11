@@ -1,11 +1,18 @@
-body{
+body {
     font-family: 'Press Start 2P', system-ui;
 }
-.capitulo{
-    border-bottom: 1px solid #000;
+
+.capitulo {
+    border: 1px solid #5c5c5c;
+    /* ajustar pra ficar só ao redor do div */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
 }
-img.capitulo{
-    float:right;
+
+img.capitulo {
     width: 32px;
     height: 32px;
 }
