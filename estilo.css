@@ -28,3 +28,6 @@ a {
 a:visited {
     color: yellow;
 }
+body .arquivo{
+    background-image: url("image.png");
+}
