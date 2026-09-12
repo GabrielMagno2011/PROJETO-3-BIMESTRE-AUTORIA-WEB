@@ -1,5 +1,6 @@
 body {
     font-family: 'Press Start 2P', system-ui;
+    color: white;
 }
 
 .capitulo {
@@ -8,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
+
     padding: 10px 0px;
 }
 
@@ -19,7 +20,7 @@ img.capitulo {
 }
 
 a {
-    color: white;
+
     text-decoration: none;
     flex:1;
     text-align: center;
@@ -28,6 +29,41 @@ a {
 a:visited {
     color: yellow;
 }
-body .arquivo{
-    background-image: url("image.png");
+body.arquivo{
+    background-image: url('image.png');
+            
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    min-height: 100vh;
+
+    margin: 0;
+}
+p.tempo{
+
+    float: right;
+}
+div.arquivo{
+    margin: 20px auto;
+    border: 1px solid white;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dá o efeito meio transparente da imagem */
+    box-sizing: border-box;
+    
+}
+.linha-superior {
+    display: flex;
+    justify-content: space-between; /* Joga um item para cada ponta */
+    align-items: center;
+}
+
+.linha-superior a, .linha-superior p {
+    margin: 0; /* Limpa as margens padrão do navegador para alinhar perfeito */
+    text-align: left; /* Corrige o text-align: center que estava no <a> original */
+}
+
+p.bimestre {
+    margin-top: 15px; /* Dá o espaço entre o nome e o bimestre */
+    margin-bottom: 0;
 }
