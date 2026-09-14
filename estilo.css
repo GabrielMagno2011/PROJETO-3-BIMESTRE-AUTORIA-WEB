@@ -24,10 +24,14 @@ a {
     text-decoration: none;
     flex:1;
     text-align: center;
+    color: white;
 }
 
 a:visited {
     color: yellow;
+}
+a:hover {
+    color: red;
 }
 body.arquivo{
     background-image: url('image.png');
