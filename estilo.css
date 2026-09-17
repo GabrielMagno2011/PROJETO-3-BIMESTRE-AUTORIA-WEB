@@ -72,14 +72,33 @@ p.bimestre {
     margin-top: 15px; /* Dá o espaço entre o nome e o bimestre */
     margin-bottom: 0;
 }
-
-.voltarsprite{
+.botoes{
     display: flex;
      justify-content: center;
       align-items: center;
        margin: 0 auto;
-       background-image: url('sprites/save.webp');
-       width: 89px; /* valor de teste */
-       height: 79px;
+}
+.voltarsprite{
+    
+       background-image: url('sprites/retomar.webp');
+       width: 76px; /* valor de teste */
+       height: 36px;
+       background-repeat: no-repeat;
+    
+}
+.mapasprite{
+    
+       background-image: url('sprites/inicio.webp');
+       width: 64px; /* valor de teste */
+       height: 64px;
+       background-repeat: no-repeat;
+    
+}
+.avancarsprite{
+    
+       background-image: url('sprites/avancar.webp');
+       width: 76px;; 
+       height:36px;
+       background-repeat: no-repeat;
     
 }
