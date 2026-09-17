@@ -102,3 +102,12 @@ p.bimestre {
        background-repeat: no-repeat;
     
 }
+.nostyle{
+ width: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    display: block;       
+  margin: 20px auto 0;   
+  text-align: center;
+}
