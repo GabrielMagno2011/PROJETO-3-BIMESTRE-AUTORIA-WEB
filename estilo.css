@@ -53,23 +53,23 @@ div.arquivo{
     margin: 20px auto;
     border: 1px solid white;
     width: 50%;
-    background-color: rgba(0, 0, 0, 0.5); /* Dá o efeito meio transparente da imagem */
+    background-color: rgba(0, 0, 0, 0.5); 
     box-sizing: border-box;
     
 }
 .linha-superior {
     display: flex;
-    justify-content: space-between; /* Joga um item para cada ponta */
+    justify-content: space-between; 
     align-items: center;
 }
 
 .linha-superior a, .linha-superior p {
-    margin: 0; /* Limpa as margens padrão do navegador para alinhar perfeito */
-    text-align: left; /* Corrige o text-align: center que estava no <a> original */
+    margin: 0; 
+    text-align: left; 
 }
 
 p.bimestre {
-    margin-top: 15px; /* Dá o espaço entre o nome e o bimestre */
+    margin-top: 15px; 
     margin-bottom: 0;
 }
 .botoes{
@@ -81,7 +81,7 @@ p.bimestre {
 .voltarsprite{
     
        background-image: url('sprites/retomar.webp');
-       width: 76px; /* valor de teste */
+       width: 76px; 
        height: 36px;
        background-repeat: no-repeat;
     
@@ -89,7 +89,7 @@ p.bimestre {
 .mapasprite{
     
        background-image: url('sprites/inicio.webp');
-       width: 64px; /* valor de teste */
+       width: 64px; 
        height: 64px;
        background-repeat: no-repeat;
     
@@ -110,4 +110,16 @@ p.bimestre {
     display: block;       
   margin: 20px auto 0;   
   text-align: center;
+}
+.videopage{
+    background-image: url('background.gif');
+}
+.video-container{
+    display: flex;
+     justify-content: center;
+      align-items: center;
+       margin: 0 auto;
+}
+.video-container iframe{
+    border: 1px solid lime;
 }
