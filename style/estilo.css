@@ -15,8 +15,8 @@ body {
 }
 
 img.capitulo {
-    width: 32px;
-    height: 32px;
+    width: 64px;
+    height: 64px;
     border-bottom: none;
 }
 
@@ -28,12 +28,19 @@ a {
     color: white;
 }
 
+/*
 a:visited {
     color: yellow;
 }
-a:hover {
-    color: red;
+*/
+a:active {
+    color: violet;
 }
+
+a:hover {
+    color: yellow;
+}
+
 body.arquivo{
     background-image: url('image.png');
             
@@ -45,8 +52,7 @@ body.arquivo{
 
     margin: 0;
 }
-p.tempo{
-
+p.tempo {
     float: right;
 }
 div.arquivo{
@@ -72,7 +78,7 @@ p.bimestre {
     margin-top: 15px; 
     margin-bottom: 0;
 }
-.botoes{
+.botoes {
     display: flex;
     justify-content: space-evenly;
     align-items: space-around;
@@ -80,49 +86,49 @@ p.bimestre {
     border: unset;
     background: unset;
 }
-.voltarsprite{
+.voltarsprite {
     
-       background-image: url('sprites/retomar.webp');
-       width: 76px; 
-       height: 36px;
-       background-repeat: no-repeat;
-    
-}
-.mapasprite{
-    
-       background-image: url('sprites/inicio.webp');
-       width: 64px; 
-       height: 64px;
-       background-repeat: no-repeat;
+    background-image: url('../imagems/sprites/retomar.webp');
+    width: 76px; 
+    height: 36px;
+    background-repeat: no-repeat;
     
 }
-.avancarsprite{
+.mapasprite {
     
-       background-image: url('sprites/avancar.webp');
-       width: 76px;; 
-       height:36px;
-       background-repeat: no-repeat;
+    background-image: url('../imagems/sprites/inicio.webp');
+    width: 64px; 
+    height: 64px;
+    background-repeat: no-repeat;
     
 }
-.nostyle{
- width: 25%;
+.avancarsprite {
+    
+    background-image: url('../imagems/sprites/avancar.webp');
+    width: 76px;; 
+    height:36px;
+    background-repeat: no-repeat;
+    
+}
+.nostyle {
+    width: 25%;
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
     display: block;       
-  margin: 20px auto 0;   
-  text-align: center;
+    margin: 20px auto 0;   
+    text-align: center;
 }
-.videopage{
+.videopage {
     background-image: url('background.gif');
 }
-.video-container{
+.video-container {
     display: flex;
-     justify-content: center;
-      align-items: center;
-       margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
-.video-container iframe{
+.video-container iframe {
     border: 1px solid lime;
 }
 
