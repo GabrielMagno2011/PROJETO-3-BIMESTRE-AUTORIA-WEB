@@ -125,3 +125,19 @@ p.bimestre {
 .video-container iframe{
     border: 1px solid lime;
 }
+
+.text-links {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap:10px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    border: 1px solid lime;
+    margin: 20% auto
+}
