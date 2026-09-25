@@ -4,6 +4,28 @@ body {
     background-color: black;
 }
 
+.GONERMAKER {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 20% auto;
+    flex-wrap: wrap;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#gonebutt {
+    display: flex;
+    border: #5c5c5c 1px solid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    max-width: 220px;
+    height: 50px;
+}
+
 .capitulo {
     border-bottom: 1px solid #5c5c5c;
 
@@ -23,7 +45,7 @@ img.capitulo {
 a {
 
     text-decoration: none;
-    flex:1;
+    flex: 1;
     text-align: center;
     color: white;
 }
