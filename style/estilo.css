@@ -178,15 +178,33 @@ p.bimestre {
     display: flex;
     margin-top: 50px;
     justify-content: center;
-    gap: 10px;
+    gap: 80px;
 }
 
 .text-container {
+    width: 60%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 120px;
+    text-align: justify;
+    margin: 20% auto;
+    flex-wrap: wrap;
+    font-size: 20px;
+    line-height: 30px;
     border: 1px solid lime;
-    margin: 20% auto
+}
+body.goner{
+    background-image: url('../imagems/soulcreation.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+a.othercolor {
+    color: lime;
+}
+a.othercolor:visited {
+    color: violet;
+}
+a.othercolor:hover {
+color: yellow;
 }
