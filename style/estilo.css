@@ -42,7 +42,7 @@ a:hover {
 }
 
 body.arquivo{
-    background-image: url('image.png');
+    background-image: url('/imagems/image.png');
             
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ p.bimestre {
     text-align: center;
 }
 .videopage {
-    background-image: url('background.gif');
+    background-image: url('../imagems/background.gif');
 }
 .video-container {
     display: flex;
