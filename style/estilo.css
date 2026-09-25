@@ -65,19 +65,20 @@ a:hover {
 }
 
 body.arquivo {
-    background-image: url('../imagems/image.png');
+    background-image: url('../imagems/image.gif');
 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
+    
     min-height: 100vh;
 
     margin: 0;
 }
 
 p.tempo {
-    float: right;
+    text-align: right;
 }
 
 div.arquivo {
@@ -86,24 +87,29 @@ div.arquivo {
     width: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-
 }
 
 .linha-superior {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
 }
 
-.linha-superior a,
-.linha-superior p {
-    margin: 0;
-    text-align: left;
+/*#savebutt {
+    border-left
+}
+*/
+
+.linha-superior a, .linha-superior p {
+        margin: 30px;
+        text-align: left;
 }
 
 p.bimestre {
-    margin-top: 15px;
-    margin-bottom: 0;
+    margin-top: 0px;
+    margin: 30px;
+    margin-bottom: 20px;
 }
 
 .botoes {
